@@ -141,11 +141,13 @@
   <ItemGroup>
     <ClCompile Include="Board_Checkers.cpp" />
     <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="Movement.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Board_Checkers.h" />
     <ClInclude Include="Cell.h" />
+    <ClInclude Include="Movement.h" />
     <ClInclude Include="Shabloni.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,6 +1,8 @@
 #pragma once
 #include "Cell.h"
 #include "Shabloni.h"
+class Cell;
+
 class Board_Checkers
 {
 public:

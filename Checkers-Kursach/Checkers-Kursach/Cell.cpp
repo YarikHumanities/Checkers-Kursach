@@ -1,5 +1,8 @@
 #include "Cell.h"
 #include "Shabloni.h"
+#include "Board_Checkers.h"
+#include <iostream>
+
 
 coordinates Cell::getCoordinates() const {
 	coordinates coords;

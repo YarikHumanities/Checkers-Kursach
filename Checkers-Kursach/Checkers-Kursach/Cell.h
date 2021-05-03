@@ -1,7 +1,10 @@
 #pragma once
 #include "Shabloni.h"
-#include "Board_Checkers.h"
+//#include "Board_Checkers.h"
 #include <iostream>
+//using namespace std;
+class Board_Checkers;
+
 class Cell
 {
 private:
@@ -17,5 +20,9 @@ public:
 	coordinates getCoordinates() const;
 	std::string getLetter() const;
 	void DamkaCheck(const Board_Checkers& board_checkers);
+	void makeMoveTo(int x, int y) {
+		this->x = x;
+		this->y = y;
+	}
 };
 
