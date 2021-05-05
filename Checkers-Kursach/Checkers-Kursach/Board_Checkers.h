@@ -19,9 +19,9 @@ public:
 		coordinates coords = getCoordinatesFromPosition(position);
 		return getColor(coords[0], coords[1]);
 	}
-	
-private:
 	Cell* boardMatrix[size][size];
+private:
+	
 
 	coordinates getCoordinatesFromPosition(int position) const {
 		coordinates coords;
