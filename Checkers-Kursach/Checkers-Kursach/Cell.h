@@ -5,11 +5,12 @@
 #include <memory>
 #include <vector>
 //using namespace std;
+class Board_Checkers;
+class Movement;
+
 typedef std::vector<std::shared_ptr<Movement>> all_moves_vector;
 typedef std::shared_ptr<Movement> pointer_to_move;
 
-class Board_Checkers;
-class Movement;
 
 class Cell
 {

@@ -32,28 +32,33 @@ std::string Cell::getLetter() const {
 	return letter;
 }
 all_moves_vector Cell::make_move_vector(int x1, int y1, int x2, int y2, const Board_Checkers& board_checkers) const {
-	std::pair<coordinates, coordinates> move;
+	all_moves_vector moves(0);
+	int y_start;
+	int y_iterator;
+	int x_quant;
 	bool check = false;
+
 	if (isWhite) {
-		if ((x2 == x1 + 1 && (y2 == y1 + 1 || y2 == y1 - 1)) && board_checkers.getColor(x2, y2)==nullptr) {
-			bool ckeck = true;
-		}
+		y_start = this->y + 1;
+		y_iterator = -2;
 	}
 	if (!isWhite) {
-		if ((x2 == x1 - 1 && (y2 == y1 + 1 || y2 == y1 - 1)) && board_checkers.getColor(x2, y2) == nullptr) {
-			bool check = true;
+		y_start = this->y - 1;
+		y_iterator = 2;
+	}
+	x_quant = 1;
+	if (this->isDamka) {
+		x_quant = 2;
+	}
+	for (int i = this->x-1; i < this->x+1; i+=2)
+	{
+		int y = y_start - y_iterator;
+		if ((x < 0 || x >= board_checkers.size || y < 0 || y >= board_checkers.size)) {
+			continue;
+		}
+		if (board_checkers.getColor(x, y) == nullptr) {
+			//можно пушить мувмент в вектор
 		}
 	}
-	if (check == true) {
-		coordinates start;
-		start[0] = x1;
-		start[1] = y1;
-		coordinates finish;
-		finish[0] = x2;
-		finish[1] = y2;
-		move.first = start;
-		move.second = finish;
 
-		return move;
-	}
 }
