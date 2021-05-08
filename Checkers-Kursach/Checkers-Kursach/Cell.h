@@ -1,9 +1,15 @@
 #pragma once
 #include "Shabloni.h"
-//#include "Board_Checkers.h"
+#include "Board_Checkers.h"
 #include <iostream>
+#include <memory>
+#include <vector>
 //using namespace std;
+typedef std::vector<std::shared_ptr<Movement>> all_moves_vector;
+typedef std::shared_ptr<Movement> pointer_to_move;
+
 class Board_Checkers;
+class Movement;
 
 class Cell
 {
@@ -24,5 +30,7 @@ public:
 		this->x = x;
 		this->y = y;
 	}
+	all_moves_vector make_move_vector(int x1, int y1, int x2, int y2, const Board_Checkers& board_checkers) const;
 };
+
 

@@ -1,9 +1,22 @@
 ﻿  Board_Checkers.cpp
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,37): error C2065: 'Movement': undeclared identifier
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,26): error C2923: 'std::shared_ptr': 'Movement' is not a valid template type argument for parameter '_Ty'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,26): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(9,25): error C2065: 'Movement': undeclared identifier
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(9,14): error C2923: 'std::shared_ptr': 'Movement' is not a valid template type argument for parameter '_Ty'
   Cell.cpp
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,37): error C2065: 'Movement': undeclared identifier
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,26): error C2923: 'std::shared_ptr': 'Movement' is not a valid template type argument for parameter '_Ty'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,26): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(9,25): error C2065: 'Movement': undeclared identifier
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(9,14): error C2923: 'std::shared_ptr': 'Movement' is not a valid template type argument for parameter '_Ty'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.cpp(57,14): error C2440: 'return': cannot convert from 'std::pair<coordinates,coordinates>' to 'std::vector<int,std::allocator<int>>'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.cpp(57,3): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
   Movement.cpp
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.cpp(19,2): error C2065: 'vector': undeclared identifier
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.cpp(19,9): error C2275: 'coordinates': illegal use of this type as an expression
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Shabloni.h(3): message : see declaration of 'coordinates'
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.cpp(19,22): error C2065: 'move': undeclared identifier
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,37): error C2065: 'Movement': undeclared identifier
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,26): error C2923: 'std::shared_ptr': 'Movement' is not a valid template type argument for parameter '_Ty'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,26): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(9,25): error C2065: 'Movement': undeclared identifier
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(9,14): error C2923: 'std::shared_ptr': 'Movement' is not a valid template type argument for parameter '_Ty'
   Source.cpp
   Generating Code...
