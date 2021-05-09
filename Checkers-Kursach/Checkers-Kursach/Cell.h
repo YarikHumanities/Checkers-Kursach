@@ -1,6 +1,7 @@
 #pragma once
 #include "Shabloni.h"
 #include "Board_Checkers.h"
+
 #include <iostream>
 #include <memory>
 #include <vector>

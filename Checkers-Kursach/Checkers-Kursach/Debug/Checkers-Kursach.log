@@ -1,22 +1,249 @@
 ﻿  Board_Checkers.cpp
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,37): error C2065: 'Movement': undeclared identifier
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,26): error C2923: 'std::shared_ptr': 'Movement' is not a valid template type argument for parameter '_Ty'
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,26): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(9,25): error C2065: 'Movement': undeclared identifier
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(9,14): error C2923: 'std::shared_ptr': 'Movement' is not a valid template type argument for parameter '_Ty'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9,26): error C2039: 'shared_ptr': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9,36): error C2065: 'shared_ptr': undeclared identifier
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9,37): error C2065: 'Movement': undeclared identifier
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9,14): error C2974: 'std::vector': invalid template argument for '_Ty', type expected
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(413): message : see declaration of 'std::vector'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9,14): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(413): message : see declaration of 'std::vector'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9,45): error C2059: syntax error: '>'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(10,14): error C2039: 'shared_ptr': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(10,24): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(10,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(19,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(19,32): error C3646: 'previous': unknown override specifier
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(21,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(21,65): error C2146: syntax error: missing ')' before identifier 'previous'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(21,10): error C3646: 'previous': unknown override specifier
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(21,10): error C2062: type 'bool' unexpected
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(21,10): error C2059: syntax error: ':'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(21,10): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(487,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(487,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(517,17): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(517,37): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(517,37): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(517,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(517,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(517,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(517,49): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(518,72): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(549,6): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(549,26): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(549,26): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(549,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(549,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(549,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(549,111): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(590,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(590,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(590,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(590,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(590,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(590,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(617,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(617,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(617,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(617,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(617,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(617,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(619,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(619,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(619,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(619,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(619,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(619,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(635,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(635,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(635,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(635,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(635,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(635,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(636,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(636,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(636,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(636,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(636,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(636,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(638,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(638,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(638,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(638,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(638,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(638,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(640,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(640,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(640,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(640,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(640,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(640,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(642,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(642,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(642,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(642,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(642,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(642,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(643,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(643,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(643,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(643,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(643,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(643,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(656,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(656,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(656,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iosfwd(24,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iosfwd(24,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iosfwd(24,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iterator(21,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iterator(21,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iterator(21,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iterator(828,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iterator(828,1): fatal error C1003: error count exceeds 100; stopping compilation
   Cell.cpp
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,37): error C2065: 'Movement': undeclared identifier
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,26): error C2923: 'std::shared_ptr': 'Movement' is not a valid template type argument for parameter '_Ty'
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,26): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(9,25): error C2065: 'Movement': undeclared identifier
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(9,14): error C2923: 'std::shared_ptr': 'Movement' is not a valid template type argument for parameter '_Ty'
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.cpp(57,14): error C2440: 'return': cannot convert from 'std::pair<coordinates,coordinates>' to 'std::vector<int,std::allocator<int>>'
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.cpp(57,3): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9,26): error C2039: 'shared_ptr': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9,36): error C2065: 'shared_ptr': undeclared identifier
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9,37): error C2065: 'Movement': undeclared identifier
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9,14): error C2974: 'std::vector': invalid template argument for '_Ty', type expected
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(413): message : see declaration of 'std::vector'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9,14): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(413): message : see declaration of 'std::vector'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9,45): error C2059: syntax error: '>'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(10,14): error C2039: 'shared_ptr': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(10,24): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(10,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(19,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(19,32): error C3646: 'previous': unknown override specifier
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(21,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(21,65): error C2146: syntax error: missing ')' before identifier 'previous'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(21,10): error C3646: 'previous': unknown override specifier
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(21,10): error C2062: type 'bool' unexpected
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(21,10): error C2059: syntax error: ':'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(21,10): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(487,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(487,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(517,17): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(517,37): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(517,37): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(517,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(517,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(517,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(517,49): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(518,72): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(549,6): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(549,26): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(549,26): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(549,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(549,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(549,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(549,111): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(590,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(590,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(590,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(590,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(590,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(590,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(617,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(617,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(617,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(617,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(617,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(617,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(619,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(619,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(619,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(619,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(619,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(619,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(635,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(635,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(635,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(635,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(635,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(635,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(636,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(636,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(636,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(636,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(636,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(636,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(638,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(638,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(638,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(638,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(638,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(638,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(640,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(640,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(640,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(640,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(640,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(640,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(642,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(642,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(642,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(642,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(642,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(642,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(643,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(643,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(643,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(643,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(643,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(643,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(656,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(656,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(656,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iosfwd(24,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iosfwd(24,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iosfwd(24,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iterator(21,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iterator(21,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iterator(21,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iterator(828,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\iterator(828,1): fatal error C1003: error count exceeds 100; stopping compilation
   Movement.cpp
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,37): error C2065: 'Movement': undeclared identifier
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,26): error C2923: 'std::shared_ptr': 'Movement' is not a valid template type argument for parameter '_Ty'
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(8,26): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(9,25): error C2065: 'Movement': undeclared identifier
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(9,14): error C2923: 'std::shared_ptr': 'Movement' is not a valid template type argument for parameter '_Ty'
   Source.cpp
   Generating Code...
