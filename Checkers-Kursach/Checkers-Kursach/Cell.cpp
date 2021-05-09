@@ -72,5 +72,5 @@ all_moves_vector Cell::make_move_vector(int x1, int y1, int x2, int y2, const Bo
 		}
 		
 	}
-
+	//надо добавить двойные ходы
 }

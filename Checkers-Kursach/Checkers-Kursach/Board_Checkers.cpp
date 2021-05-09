@@ -25,3 +25,10 @@ Board_Checkers::Board_Checkers(const Board_Checkers& board_checkers) {
 
 	}
 }
+void Board_Checkers::make_steps(pointer_to_move move_p, Cell* cell) {
+	coordinates start_position = cell->getCoordinates();
+	coordinates end_position = move_p->get_Finish();
+	setColor(start_position[0], start_position[1], nullptr);
+	cell->makeMoveTo(end_position[0], end_position[1]);
+	setColor(end_position[0], end_position[1], cell);
+}

@@ -1,7 +1,11 @@
 #pragma once
 #include "Cell.h"
 #include "Shabloni.h"
+#include "Movement.h"
 class Cell;
+class Movement;
+typedef std::vector<std::shared_ptr<Movement>> all_moves_vector;
+typedef std::shared_ptr<Movement> pointer_to_move;
 
 class Board_Checkers
 {
@@ -20,6 +24,7 @@ public:
 		return getColor(coords[0], coords[1]);
 	}
 	Cell* boardMatrix[size][size];
+	void make_steps(pointer_to_move move_p, Cell* cell);
 private:
 	
 
