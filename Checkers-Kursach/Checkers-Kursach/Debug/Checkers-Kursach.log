@@ -34,6 +34,7 @@ C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Ch
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
 C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(8,24): error C2059: syntax error: '<'
 C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(8,50): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(27,34): error C2061: syntax error: identifier 'pointer_to_move'
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(487,1): error C2059: syntax error: 'namespace'
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(487,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(517,17): error C2039: '_Common_float_type_t': is not a member of 'std'
@@ -123,8 +124,10 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): error C2143: syntax error: missing ';' before '<'
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): error C2238: unexpected token(s) preceding ';'
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): error C2059: syntax error: '<'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): fatal error C1003: error count exceeds 100; stopping compilation
   Movement.cpp
+  Player.cpp
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Player.cpp(7,77): error C2511: 'pointer_to_move Player::get_move_from(const Board_Checkers &)': overloaded member function not found in 'Player'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Player.h(11): message : see declaration of 'Player'
   Source.cpp
   Generating Code...
