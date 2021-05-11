@@ -1,4 +1,6 @@
 #pragma once
+#include <iostream>
+#include <string>
 #include <vector>
 #include <memory>
 #include "Cell.h"
@@ -17,6 +19,8 @@ private:
 	const bool isWhite;
 	Cell* get_coodr_from(const Board_Checkers& board_checkers);
 	pointer_to_move get_move_from(const all_moves_vector all_moves);
+	void print_board(const Board_Checkers& board_checkers, const all_moves_vector all_moves);
+	void print_board(const Board_Checkers& board_checkers);
 public:
 	Player(bool isWhite): isWhite(isWhite){}
 };

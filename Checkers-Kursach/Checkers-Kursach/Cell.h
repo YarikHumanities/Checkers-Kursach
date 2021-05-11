@@ -32,7 +32,7 @@ public:
 		this->x = x;
 		this->y = y;
 	}
-	all_moves_vector make_move_vector(int x1, int y1, int x2, int y2, const Board_Checkers& board_checkers) const;
+	all_moves_vector make_move_vector(const Board_Checkers& board_checkers) const;
 };
 
 

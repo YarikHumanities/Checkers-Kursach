@@ -32,7 +32,7 @@ std::string Cell::getLetter() const {
 	}
 	return letter;
 }
-all_moves_vector Cell::make_move_vector(int x1, int y1, int x2, int y2, const Board_Checkers& board_checkers) const {
+all_moves_vector Cell::make_move_vector(const Board_Checkers& board_checkers) const {
 	all_moves_vector moves(0);
 	int y_start;
 	int y_iterator;

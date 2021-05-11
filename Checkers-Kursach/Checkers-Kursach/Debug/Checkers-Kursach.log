@@ -127,7 +127,29 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(644,1): fatal error C1003: error count exceeds 100; stopping compilation
   Movement.cpp
   Player.cpp
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Player.cpp(7,77): error C2511: 'pointer_to_move Player::get_move_from(const Board_Checkers &)': overloaded member function not found in 'Player'
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Player.h(11): message : see declaration of 'Player'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9,37): error C2065: 'Movement': undeclared identifier
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9,26): error C2923: 'std::shared_ptr': 'Movement' is not a valid template type argument for parameter '_Ty'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9,26): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(10,25): error C2065: 'Movement': undeclared identifier
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(10,14): error C2923: 'std::shared_ptr': 'Movement' is not a valid template type argument for parameter '_Ty'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(7,48): error C2371: 'all_moves_vector': redefinition; different basic types
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9): message : see declaration of 'all_moves_vector'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(8,35): error C2371: 'pointer_to_move': redefinition; different basic types
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(10): message : see declaration of 'pointer_to_move'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(12,48): error C2371: 'all_moves_vector': redefinition; different basic types
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9): message : see declaration of 'all_moves_vector'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(13,35): error C2371: 'pointer_to_move': redefinition; different basic types
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(10): message : see declaration of 'pointer_to_move'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Player.h(13,48): error C2371: 'all_moves_vector': redefinition; different basic types
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9): message : see declaration of 'all_moves_vector'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Player.h(14,35): error C2371: 'pointer_to_move': redefinition; different basic types
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(10): message : see declaration of 'pointer_to_move'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Player.cpp(29,73): error C2079: 'Player::get_move_from' uses undefined class 'std::shared_ptr'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Player.cpp(36,36): error C2440: 'return': cannot convert from 'const _Ty' to 'std::shared_ptr'
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Player.cpp(36,36): message : No constructor could take the source type, or constructor overload resolution was ambiguous
   Source.cpp
   Generating Code...
