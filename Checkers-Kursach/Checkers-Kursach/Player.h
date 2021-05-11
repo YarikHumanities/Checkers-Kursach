@@ -21,7 +21,9 @@ private:
 	pointer_to_move get_move_from(const all_moves_vector all_moves);
 	void print_board(const Board_Checkers& board_checkers, const all_moves_vector all_moves);
 	void print_board(const Board_Checkers& board_checkers);
+	
 public:
 	Player(bool isWhite): isWhite(isWhite){}
+	void form_move(Board_Checkers& board_checkers);
 };
 

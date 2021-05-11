@@ -75,3 +75,26 @@ void Player::print_board(const Board_Checkers& board_checkers) {
 	all_moves_vector moves(0);
 	print_board(board_checkers, moves);
 }
+
+void Player::form_move(Board_Checkers& board_checkers){
+	print_board(board_checkers);
+	all_moves_vector possible_moves;
+	while (true) {
+		Cell* moved_cell = get_coodr_from(board_checkers);
+		if (moved_cell == nullptr) {
+			continue;
+		}
+		possible_moves = moved_cell->make_move_vector(board_checkers);
+		if (possible_moves.empty()) {
+			std::cout << "No moves here, try again" << std::endl;
+		}
+		else {
+			print_board(board_checkers, possible_moves);
+			pointer_to_move chosen_move = get_move_from(possible_moves);
+
+			if (chosen_move!=nullptr) {
+				board_checkers.make_steps(chosen_move, moved_cell);
+			}
+		}
+	}
+}
