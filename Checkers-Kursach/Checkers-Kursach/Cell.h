@@ -22,6 +22,7 @@ private:
 	void becomeDamka() {
 		isDamka = true;
 	}
+	all_moves_vector make_attack_vector(const Board_Checkers& board_checkers, const pointer_to_move previousMove) const;
 public:
 	const bool isWhite;
 	Cell(int x, int y, bool isWhite): x(x), y(y), isWhite(isWhite){}

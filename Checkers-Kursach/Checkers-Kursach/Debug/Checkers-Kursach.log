@@ -22,19 +22,19 @@ C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement
 C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(21,10): error C2059: syntax error: ':'
 C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(21,10): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
 C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(6,15): error C3769: 'Movement': a nested class cannot have the same name as the immediately enclosing class
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(7,26): error C2039: 'shared_ptr': is not a member of 'std'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(8,26): error C2039: 'shared_ptr': is not a member of 'std'
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(7,36): error C2947: expecting '>' to terminate template-argument-list, found '<'
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(7,45): error C2143: syntax error: missing ';' before '>>'
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(7,37): error C7540: 'Movement': member cannot have the same name as the enclosing class
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(7,37): error C2371: 'Movement::Movement': redefinition; different basic types
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(8,36): error C2947: expecting '>' to terminate template-argument-list, found '<'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(8,45): error C2143: syntax error: missing ';' before '>>'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(8,37): error C7540: 'Movement': member cannot have the same name as the enclosing class
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(8,37): error C2371: 'Movement::Movement': redefinition; different basic types
 C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(6): message : see declaration of 'Movement::Movement'
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(7,64): error C2238: unexpected token(s) preceding ';'
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(8,14): error C2039: 'shared_ptr': is not a member of 'std'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(8,64): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(9,14): error C2039: 'shared_ptr': is not a member of 'std'
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(24): message : see declaration of 'std'
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(8,24): error C2059: syntax error: '<'
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(8,50): error C2238: unexpected token(s) preceding ';'
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(27,34): error C2061: syntax error: identifier 'pointer_to_move'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(9,24): error C2059: syntax error: '<'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(9,50): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(28,34): error C2061: syntax error: identifier 'pointer_to_move'
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(487,1): error C2059: syntax error: 'namespace'
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(487,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\cmath(517,17): error C2039: '_Common_float_type_t': is not a member of 'std'
@@ -132,9 +132,11 @@ C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement
 C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9,26): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
 C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(10,25): error C2065: 'Movement': undeclared identifier
 C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(10,14): error C2923: 'std::shared_ptr': 'Movement' is not a valid template type argument for parameter '_Ty'
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(7,48): error C2371: 'all_moves_vector': redefinition; different basic types
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(24,59): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(24,59): error C2143: syntax error: missing ',' before '&'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(8,48): error C2371: 'all_moves_vector': redefinition; different basic types
 C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9): message : see declaration of 'all_moves_vector'
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(8,35): error C2371: 'pointer_to_move': redefinition; different basic types
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(9,35): error C2371: 'pointer_to_move': redefinition; different basic types
 C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(10): message : see declaration of 'pointer_to_move'
 C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Cell.h(12,48): error C2371: 'all_moves_vector': redefinition; different basic types
 C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Movement.h(9): message : see declaration of 'all_moves_vector'
@@ -151,5 +153,11 @@ C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Player.c
               _Ty=int
           ]
 C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Player.cpp(36,36): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Player.cpp(93,63): error C2514: 'std::shared_ptr': class template cannot be constructed
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\memory(1041): message : see declaration of 'std::shared_ptr'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Player.cpp(95,19): error C2676: binary '!=': 'pointer_to_move' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Player.cpp(96,54): error C2664: 'void Board_Checkers::make_steps(pointer_to_move,Cell *)': cannot convert argument 1 from 'pointer_to_move' to 'pointer_to_move'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Player.cpp(96,54): message : Cannot copy construct class 'std::shared_ptr' due to ambiguous copy constructors or no available copy constructor
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach\Checkers-Kursach\Board_Checkers.h(28,7): message : see declaration of 'Board_Checkers::make_steps'
   Source.cpp
   Generating Code...

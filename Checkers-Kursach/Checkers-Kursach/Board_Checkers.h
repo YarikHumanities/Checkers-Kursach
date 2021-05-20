@@ -2,10 +2,12 @@
 #include "Cell.h"
 #include "Shabloni.h"
 #include "Movement.h"
+#include <memory>
 class Cell;
 class Movement;
 
 typedef std::vector<std::shared_ptr<Movement>> all_moves_vector;
+
 typedef std::shared_ptr<Movement> pointer_to_move;
 
 class Board_Checkers

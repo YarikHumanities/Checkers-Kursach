@@ -3,6 +3,7 @@
 #include "Board_Checkers.h"
 #include "Movement.h"
 #include <iostream>
+#include <memory>
 
 //class Movement;
 coordinates Cell::getCoordinates() const {
@@ -73,4 +74,69 @@ all_moves_vector Cell::make_move_vector(const Board_Checkers& board_checkers) co
 		
 	}
 	//надо добавить двойные ходы
+
+	all_moves_vector possibleAttacks = this->make_attack_vector(board_checkers, nullptr);
+	moves.insert(moves.end(), possibleAttacks.begin(), possibleAttacks.end());
+	moves.shrink_to_fit();
+	return moves;
+}
+all_moves_vector Cell::make_attack_vector(const Board_Checkers& board_checkers, const pointer_to_move previousMove) const {
+	all_moves_vector moves(0);
+	int y_start;
+	int y_iterator;
+	int x_quant;
+
+	if (isWhite) {
+		y_start = this->y + 2;
+		y_iterator = -4;
+	}
+	if (!isWhite) {
+		y_start = this->y - 2;
+		y_iterator = 4;
+	}
+	x_quant = 1;
+	if (this->isDamka) {
+		x_quant = 2;
+	}
+	for (int x = this->x-2; x <= this->x+2; x+=4)
+	{
+		int y = y_start - y_iterator;
+		for (int i = 0; i < x_quant; i++)
+		{
+			y += y_iterator;
+
+			if ((x < 0 || x >= board_checkers.size || y < 0 || y >= board_checkers.size)) {
+				continue;
+			}
+			if (previousMove!=nullptr && x == previousMove->get_Start()[0] && y == previousMove->get_Start()[1]) {
+				continue;
+			}
+
+
+			Cell* between = board_checkers.getColor( (this->x + x) / 2, (this->y + y) / 2 );
+
+
+
+			if (between != nullptr &&
+				between->isWhite != this->isWhite &&
+				board_checkers.getColor(x, y) == nullptr) {
+				pointer_to_move jump(new Movement(this->x, this->y, x, y, previousMove, true));
+				moves.push_back(jump);
+
+				Cell suppositive(x, y, this->isWhite);
+				if (this->isDamka) {
+
+					suppositive.becomeDamka();
+
+				}
+
+				all_moves_vector nextMoves = suppositive.make_attack_vector(board_checkers, jump);
+
+				moves.insert(moves.end(), nextMoves.begin(), nextMoves.end());
+
+			}
+		}
+	}
+	moves.shrink_to_fit();
+	return moves;
 }
