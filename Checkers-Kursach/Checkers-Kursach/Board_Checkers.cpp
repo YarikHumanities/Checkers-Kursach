@@ -1,6 +1,12 @@
 #include "Board_Checkers.h"
 #include "Cell.h"
-#include "Shabloni.h"
+#include "Movement.h"
+//#include "Shabloni.h"
+
+typedef std::array<int, 2> coordinates;
+typedef std::vector<std::shared_ptr<Movement>> all_moves_vector;
+typedef std::shared_ptr<Movement> pointer_to_move;
+
 Board_Checkers::Board_Checkers() {
 	for (int x = 0; x < size; x++)
 	{

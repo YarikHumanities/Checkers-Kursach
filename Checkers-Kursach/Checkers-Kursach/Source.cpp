@@ -3,9 +3,14 @@
 #include "Cell.h"
 #include "Movement.h"
 #include "Player.h"
-#include "Shabloni.h"
+//#include "Shabloni.h"
 #include <vector>
 #include <iostream>
+
+typedef std::array<int, 2> coordinates;
+typedef std::vector<std::shared_ptr<Movement>> all_moves_vector;
+typedef std::shared_ptr<Movement> pointer_to_move;
+
 bool isPlayer1 = true;
 
 bool game_finish(const Board_Checkers board_checkers) {

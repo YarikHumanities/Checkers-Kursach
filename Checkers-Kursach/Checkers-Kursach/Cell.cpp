@@ -1,9 +1,13 @@
 #include "Cell.h"
-#include "Shabloni.h"
 #include "Board_Checkers.h"
 #include "Movement.h"
+//#include "Shabloni.h"
+
 #include <iostream>
-#include <memory>
+
+typedef std::array<int, 2> coordinates;
+typedef std::vector<std::shared_ptr<Movement>> all_moves_vector;
+typedef std::shared_ptr<Movement> pointer_to_move;
 
 //class Movement;
 coordinates Cell::getCoordinates() const {

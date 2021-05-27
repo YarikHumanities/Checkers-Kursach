@@ -1,5 +1,5 @@
 #include "Player.h"
-#include "Shabloni.h"
+//#include "Shabloni.h"
 #include <string>
 #include <iostream>
 

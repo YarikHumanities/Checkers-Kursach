@@ -1,14 +1,14 @@
 #pragma once
-#include "Shabloni.h"
-#include "Board_Checkers.h"
 
-#include <iostream>
-#include <memory>
+#include <string>
 #include <vector>
-//using namespace std;
+#include <array>
+//#include "Shabloni.h"
+
 class Board_Checkers;
 class Movement;
 
+typedef std::array<int, 2> coordinates;
 typedef std::vector<std::shared_ptr<Movement>> all_moves_vector;
 typedef std::shared_ptr<Movement> pointer_to_move;
 
