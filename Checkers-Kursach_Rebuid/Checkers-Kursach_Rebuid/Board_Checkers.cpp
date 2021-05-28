@@ -77,16 +77,16 @@ void Board_Checkers::make_steps(const pointer_to_move Movement, Cell* piece)
     coordinates MovementEndingPos = Movement->get_Finish();
     
     // find any pieces we've jumped in the process, and reMovement them as well
-    std::vector<Cell*> jumpedPieces = Movement->get_attacked_cell(*this);
-    if (!jumpedPieces.empty())
+    std::vector<Cell*> attacked = Movement->get_attacked_cell(*this);
+    if (!attacked.empty())
     {
         // loop over all jumped pieces and reMovement them
-        for (unsigned int i = 0; i < jumpedPieces.size(); i++)
+        for (unsigned int i = 0; i < attacked.size(); i++)
         {
-            if (jumpedPieces[i] != nullptr)
+            if (attacked[i] != nullptr)
             {
-                setColor(jumpedPieces[i]->getCoordinates()[0], 
-                			jumpedPieces[i]->getCoordinates()[1], nullptr);
+                setColor(attacked[i]->getCoordinates()[0], 
+                			attacked[i]->getCoordinates()[1], nullptr);
             }
         }
     }

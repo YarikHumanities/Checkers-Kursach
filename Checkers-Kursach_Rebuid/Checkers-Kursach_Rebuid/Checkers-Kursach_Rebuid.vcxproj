@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AIPlayer.cpp" />
+    <ClCompile Include="Computer.cpp" />
     <ClCompile Include="Board_Checkers.cpp" />
     <ClCompile Include="HumanPlayer.cpp" />
     <ClCompile Include="main.cpp" />
@@ -147,7 +147,7 @@
     <ClCompile Include="Cell.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AIPlayer.h" />
+    <ClInclude Include="Computer.h" />
     <ClInclude Include="Board_Checkers.h" />
     <ClInclude Include="HumanPlayer.h" />
     <ClInclude Include="Movement.h" />

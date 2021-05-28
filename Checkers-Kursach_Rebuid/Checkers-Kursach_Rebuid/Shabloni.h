@@ -2,6 +2,9 @@
 #include <vector>
 #include <array>
 #include <memory>
+#include <unordered_map>
+#include <vector>
+#include <cstdlib>
 
 class Movement;
 

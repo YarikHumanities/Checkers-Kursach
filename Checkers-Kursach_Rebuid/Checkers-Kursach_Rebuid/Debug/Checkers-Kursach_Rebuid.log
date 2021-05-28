@@ -1,2 +1,8 @@
-﻿  main.cpp
-  Checkers-Kursach_Rebuid.vcxproj -> C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach_Rebuid\Debug\Checkers-Kursach_Rebuid.exe
+﻿  AIPlayer.cpp
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach_Rebuid\Checkers-Kursach_Rebuid\AIPlayer.cpp(83,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach_Rebuid\Checkers-Kursach_Rebuid\AIPlayer.cpp(143,39): error C3861: 'getKeyByValue': identifier not found
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach_Rebuid\Checkers-Kursach_Rebuid\AIPlayer.cpp(147,39): error C3861: 'getKeyByValue': identifier not found
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach_Rebuid\Checkers-Kursach_Rebuid\AIPlayer.cpp(159,13): error C2039: 'getKeyByValue': is not a member of 'AIPlayer'
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach_Rebuid\Checkers-Kursach_Rebuid\AIPlayer.h(6): message : see declaration of 'AIPlayer'
+  main.cpp
+  Generating Code...

@@ -1,6 +1,6 @@
 #include "Cell.h"
 #include "Movement.h"
-#include "AIPlayer.h"
+#include "Computer.h"
 #include "HumanPlayer.h"
 #include "Board_Checkers.h"
 #include <vector>
@@ -22,10 +22,24 @@ int main()
 {
 	Board_Checkers Board_Checkers;
 
-	
+
 	HumanPlayer* player3 = new HumanPlayer(true);
 	HumanPlayer* player4 = new HumanPlayer(false);
+	AIPlayer* player5 = new AIPlayer(false);
 
+	bool check;
+	check = askIfTwoPlayer();
+	if (check)
+	{
+		delete player5;
+	}
+	else
+	{
+		delete player4;
+	}
+	system("CLS");
+
+	if (check) {
 
 		while (!endGame(Board_Checkers))
 		{
@@ -38,15 +52,28 @@ int main()
 				player4->getMovement(Board_Checkers);
 			}
 
-			
+
 			isPlayer1 = !isPlayer1;
 		}
-	
+	}
+
+	else {
+
+		while (!endGame(Board_Checkers))
+		{
+			if (isPlayer1)
+			{
+				player3->getMovement(Board_Checkers);
+			}
+			else
+			{
+				player5->getMovement(Board_Checkers);
+			}
 
 
-
-	
-	return 0;
+			isPlayer1 = !isPlayer1;
+		}
+	}
 }
 
 
