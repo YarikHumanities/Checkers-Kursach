@@ -69,32 +69,9 @@ void AIPlayer::getMovement(Board_Checkers& Board_Checkers)
         Cell* piece = it.first;
 
 
-        int thisPieceY = piece->getCoordinates()[1];
+     //
 
-        if (thisPieceY > furthestForwardPiece->getCoordinates()[1])
-        {
-
-            if (isWhite) {
-                furthestForwardPiece = piece;
-            }
-
-            else {
-                furthestBackwardPiece = piece;
-            }
-        }
-
-        if (thisPieceY < furthestBackwardPiece->getCoordinates()[1])
-        {
-            if (isWhite) {
-                furthestBackwardPiece = piece;
-            }
-
-            else {
-                furthestForwardPiece = piece;
-            }
-        }
-
-
+     //
 
         //тут мы будем искать у какой ячейки может быть выполнен ход с самым большим количевством сьеденых вражеских шашек
 
