@@ -25,7 +25,7 @@ int main()
 
 	HumanPlayer* player3 = new HumanPlayer(true);
 	HumanPlayer* player4 = new HumanPlayer(false);
-	AIPlayer* player5 = new AIPlayer(false);
+	Computer* player5 = new Computer(false);
 
 	bool check;
 	check = askIfTwoPlayer();

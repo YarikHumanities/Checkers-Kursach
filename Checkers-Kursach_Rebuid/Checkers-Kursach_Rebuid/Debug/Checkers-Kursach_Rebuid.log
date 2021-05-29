@@ -1,3 +1,3 @@
 ﻿  Computer.cpp
-C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach_Rebuid\Checkers-Kursach_Rebuid\Computer.cpp(104,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach_Rebuid\Checkers-Kursach_Rebuid\Computer.cpp(81,27): warning C4018: '<': signed/unsigned mismatch
   Checkers-Kursach_Rebuid.vcxproj -> C:\Users\User\coding\Checkers-Kursach\Checkers-Kursach_Rebuid\Debug\Checkers-Kursach_Rebuid.exe

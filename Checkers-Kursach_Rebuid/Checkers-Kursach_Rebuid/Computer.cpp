@@ -1,20 +1,21 @@
+#include <unordered_map>
+#include <vector>
+#include <cstdlib>
 #include "Computer.h"
 
 #include "Board_Checkers.h"
 #include "Cell.h"
 #include "Movement.h"
+
 #include "Shabloni.h"
 
-#include <unordered_map>
-#include <vector>
-#include <cstdlib>
 
 typedef unordered_map<Cell*, all_moves_vector> moveVars;
 typedef unordered_map<pointer_to_move, Cell*> chosenMoves; 
 int random = rand() & 100;
 template <class T, class E>
 
-T AIPlayer::getKeyByValue(std::unordered_map<T, E> map, E value)
+T Computer::getKeyByValue(std::unordered_map<T, E> map, E value)
 {
     for (auto it : map)
     {
@@ -26,7 +27,7 @@ T AIPlayer::getKeyByValue(std::unordered_map<T, E> map, E value)
     return nullptr;
 }
 
-void AIPlayer::getMovement(Board_Checkers& Board_Checkers)
+void Computer::getMovement(Board_Checkers& Board_Checkers)
 {
     using namespace std;
 
@@ -70,7 +71,7 @@ void AIPlayer::getMovement(Board_Checkers& Board_Checkers)
 
 
      //
-
+        //мб что-то добавить
      //
 
         //тут мы будем искать у какой ячейки может быть выполнен ход с самым большим количевством сьеденых вражеских шашек
@@ -135,7 +136,21 @@ void AIPlayer::getMovement(Board_Checkers& Board_Checkers)
     {
         Board_Checkers.make_steps(finalMove, best_move_for_each_cell[finalMove]);
     }
+    else 
+    {
+        int randomNum = rand() & 100;
+        if (randomNum >= 50)
+        {
+            
+            Board_Checkers.make_steps(getKeyByValue(best_move_for_each_cell, furthestBackwardPiece), furthestBackwardPiece);
+        }
+        else
+        {
+            Board_Checkers.make_steps(getKeyByValue(best_move_for_each_cell, furthestForwardPiece), furthestForwardPiece);
+        }
+    }
 }
+
 
 
 
