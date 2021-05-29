@@ -11,9 +11,20 @@
 
 typedef unordered_map<Cell*, all_moves_vector> moveVars;
 typedef unordered_map<pointer_to_move, Cell*> chosenMoves; 
+int random = rand() & 100;
+template <class T, class E>
 
-
-
+T AIPlayer::getKeyByValue(std::unordered_map<T, E> map, E value)
+{
+    for (auto it : map)
+    {
+        if (it.second == value)
+        {
+            return it.first;
+        }
+    }
+    return nullptr;
+}
 
 void AIPlayer::getMovement(Board_Checkers& Board_Checkers)
 {
@@ -115,4 +126,39 @@ void AIPlayer::getMovement(Board_Checkers& Board_Checkers)
         best_move_for_each_cell[maxJumpMovement] = piece;
     }
 
+
+
+
+
+    pointer_to_move finalMove = best_move_for_each_cell.begin()->first;
+    int finalMove_attackL = 0;
+    for (auto it : best_move_for_each_cell)
+    {
+        pointer_to_move Movement = it.first;
+
+       
+        vector<Cell*> attacked = Movement->get_attacked_cell(Board_Checkers);
+
+        
+        if (!attacked.empty())
+        {
+            int current_best_attack = attacked.size();
+
+           
+            if (current_best_attack >= finalMove_attackL)
+            {
+                finalMove_attackL = current_best_attack;
+                finalMove = Movement;
+            }
+        }
+    }
+
+    
+    if (finalMove_attackL > 0)
+    {
+        Board_Checkers.make_steps(finalMove, best_move_for_each_cell[finalMove]);
+    }
 }
+
+
+

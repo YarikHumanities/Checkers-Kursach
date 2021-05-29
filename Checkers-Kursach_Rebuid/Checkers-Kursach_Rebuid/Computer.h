@@ -13,6 +13,8 @@ public:
 
 private:
 	bool isWhite;
+	template <class T, class E>
+	T getKeyByValue(unordered_map<T, E> map, E value);
 	
 };
 
